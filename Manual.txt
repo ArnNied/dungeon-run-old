@@ -1,0 +1,47 @@
+!!! Player Status !!!
+Base HP 				= 10 + (level * 21)
+Max EXP 				= 20 + (+10 after level up)
+Potion Limit 			= 3 (+1 per 4 level)
+Greater Potion Limit 	= 1 (+1 per 5 level)
+
+STR:
+STR affect your damage reduction and the damage you dealt.
+Each point will increase Damage Reduction by '4%' and add 2 point of damage.
+
+AGI:
+AGI affect your evade and hit chance.
+Each AGI point will increase evade by '3%' and hit chance by '4%'.
+
+MISC:
+MISC skill will affect your chances of landing a critical, making a parry, and increase potion effectiveness.
+Each MISC point wil increase crit chances with weapon '2%', parry chance by '7%', Potion by 4 Points, and G. Potion by 6 points.
+
+
+!! ACTION !!
+! ATTACK !
+NOTE: Damage will be rounded up
+
+PLAYER:
+1. MISS 	: If enemy evade happens or your weapon didn't hit			| No damage will be done
+2. CRITICAL : If a critical check success on your weapon				| EnemyHP - (WEAPON + (ATK * 2)) * 2
+3. HIT		: If all of the above did not happen						| EnemyHP - (WEAPON + (ATK * 2))
+
+ENEMY:
+1. MISS		: If enemy hit is not success OR player evade success		| No damage will be done
+2. CRITICAL	: If enemy critical success									| PlayerHP - (EnemyATK * 2) * (100 - (ARMOR)) / 100
+3. HIT		: if all of the above did not happen						| PlayerHP - EnemyATK * (100 - (ARMOR)) / 100
+
+
+! PARRY !
+
+PLAYER:
+1. C. EVADE	: If enemy critical AND enemy evade AND player parry success| PlayerHP - (EnemyATK * 2) * (100 - (ARMOR)) / 100) * 0.1
+2. EVADE	: If a parry success AND enemy evade success				| PlayerHP - EnemyATK * (100 - (ARMOR)) / 100) * 0.1
+3. CRITICAL	: If parry success AND enemy crit success					| EnemyHP - (EnemyATK * 2) * 0.8
+                								  	  				  	  PlayerHP - (EnemyATK * 2) * (100 - (ARMOR)) / 100) * 0.1
+4. PARRY	: If a parry success 										| EnemyHP - EnemyATK * 0.8
+                								  	  				  	  PlayerHP - EnemyATK * (100 - (ARMOR)) / 100) * 0.1
+5. FAILED	: 3 instances can happen									| Enemy no damage
+	1. MISS		: When enemy hit failed OR player evade success				| No damage will be done
+	2. CRITICAL	: When enemy crit success									| PlayerHP - (EnemyATK * 2) * (100 - (ARMOR)) / 100
+	3. HIT		: if all of the above did not happen						| PlayerHP - EnemyATK * (100 - (ARMOR)) / 100
