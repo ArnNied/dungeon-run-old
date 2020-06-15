@@ -1,0 +1,22 @@
+{
+    "healing": {
+        "lesser": {
+            "name": "Lesser Healing Potion",
+            "stat": 30,
+            "limit": 4,
+            "drop": 70
+        },
+        "normal": {
+            "name": "Healing Potion",
+            "stat": 50,
+            "limit": 2,
+            "drop": 55
+        },
+        "greater": {
+            "name": "Greater Healing Potion",
+            "stat": 80,
+            "limit": 1,
+            "drop": 40
+        }
+    }
+}

@@ -1,0 +1,78 @@
+{
+    "fist": {
+        "name": "Fist",
+        "atk": [2, 6],
+        "hit": 75,
+        "crit": 5,
+        "drop": 100
+    },
+    "sword": {
+        "sword1": {
+            "name": "Iron Sword",
+            "atk": [7, 13],
+            "hit": 32,
+            "crit": 4,
+            "drop": 60
+        },
+        "sword2": {
+            "name": "Steel Sword",
+            "atk": [14, 20],
+            "hit": 42,
+            "crit": 8,
+            "drop": 50
+        },
+        "sword3": {
+            "name": "Daedric Sword",
+            "atk": [22, 29],
+            "hit": 52,
+            "crit": 12,
+            "drop": 40
+        }
+    },
+    "rapier": {
+        "rapier1": {
+            "name": "Iron Rapier",
+            "atk": [7, 10],
+            "hit": 37,
+            "crit": 3,
+            "drop": 60
+        },
+        "rapier2": {
+            "name": "Steel Rapier",
+            "atk": [12, 15],
+            "hit": 50,
+            "crit": 9,
+            "drop": 50
+        },
+        "rapier3": {
+            "name": "Daedric Rapier",
+            "atk": [17, 21],
+            "hit": 63,
+            "crit": 15,
+            "drop": 40
+        }
+    },
+    "axe": {
+        "axe1": {
+            "name": "Iron Axe",
+            "atk": [12, 33],
+            "hit": 21,
+            "crit": 6,
+            "drop": 60
+        },
+        "axe2": {
+            "name": "Steel Axe",
+            "atk": [18, 39],
+            "hit": 26,
+            "crit": 8,
+            "drop": 50
+        },
+        "axe3": {
+            "name": "Daedric Axe",
+            "atk": [24, 45],
+            "hit": 31,
+            "crit": 10,
+            "drop": 40
+        }
+    }
+}

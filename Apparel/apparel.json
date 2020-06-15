@@ -1,0 +1,42 @@
+{
+    "cloth": {
+        "name": "Cloth",
+        "stat": 0,
+        "drop": 100
+    },
+
+    "armor":{
+        "armor1": {
+            "name": "Iron Armor",
+            "stat": 10,
+            "drop": 50
+        },
+        "armor2": {
+            "name": "Steel Armor",
+            "stat": 15,
+            "drop": 50
+        },
+        "armor3": {
+            "name": "Daedric Armor",
+            "stat": 20,
+            "drop": 50
+        }
+    },
+    "shield": {
+        "shield1": {
+            "name": "Wooden Shield",
+            "stat": 16,
+            "drop": 50
+        },
+        "shield2": {
+            "name": "Steel Shield",
+            "stat": 21,
+            "drop": 40
+        },
+        "shield3": {
+            "name": "Daedric Shield",
+            "stat": 26,
+            "drop": 30
+        }
+    }
+}

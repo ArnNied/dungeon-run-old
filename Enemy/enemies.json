@@ -1,0 +1,152 @@
+{
+    "blank": {
+        "name": "Blank",
+        "hp": [0, 0],
+        "atk": [0, 0],
+        "hit": 0,
+        "crit": 0,
+        "evade": 0,
+        "exp": [0, 0],
+        "chance": [0, 0]
+    },
+    "slime1": {
+        "name": "Blue Slime",
+        "hp": [10, 21],
+        "atk": [0, 1],
+        "hit": 0,
+        "crit": 0,
+        "evade": 0,
+        "exp": [1, 2],
+        "chance": [5, 11]
+    },
+    "rat1": {
+        "name": "Rat",
+        "hp": [10, 21],
+        "atk": [1, 4],
+        "hit": 80,
+        "crit": 3,
+        "evade": 3,
+        "exp": [1, 6],
+        "chance": [70, 81]
+    },
+    "spider": {
+        "name": "Spider",
+        "hp": [30, 41],
+        "atk": [4, 7],
+        "hit": 75,
+        "crit": 5,
+        "evade": 0,
+        "exp": [5, 9],
+        "chance": [10, 41]
+    },
+    "goblin": {
+        "name": "Goblin",
+        "hp": [20, 31],
+        "atk": [2, 9],
+        "hit": 70,
+        "crit": 15,
+        "evade": 5,
+        "exp": [7, 11],
+        "chance": [5, 11]
+    },
+    "slime2": {
+        "name": "Red Slime", 
+        "hp": [100, 121], 
+        "atk": [4, 8], 
+        "hit": 80, 
+        "crit": 55, 
+        "evade": 10, 
+        "exp": [10, 21], 
+        "chance": [40, 60]
+    },
+    "slime3": {
+        "name": "Green Slime",
+        "hp": [50, 81],
+        "atk": [10, 17],
+        "hit": 80,
+        "crit": 55,
+        "evade": 10,
+        "exp": [10, 21],
+        "chance": [40, 60]
+    },
+    "slime4": {
+        "name": "Black Slime",
+        "hp": [70, 95],
+        "atk": [5, 11],
+        "hit": 75,
+        "crit": 40,
+        "evade": 35,
+        "exp": [10, 21],
+        "chance": [40, 60]
+    },
+    "skeleton": {
+        "name": "Skeleton",
+        "hp": [80, 100],
+        "atk": [7, 11],
+        "hit": 80,
+        "crit": 2,
+        "evade": 10,
+        "exp": [15, 25],
+        "chance": [40, 60]
+    },
+    "zombie": {
+        "name": "Zombie",
+        "hp": [100, 151],
+        "atk": [10, 18],
+        "hit": 70,
+        "crit": 12,
+        "evade": 0,
+        "exp": [20, 50],
+        "chance": [40, 50]
+    },
+    "knight": {
+        "name": "Hollow Knight",
+        "hp": [200, 280],
+        "atk": [10, 20],
+        "hit": 80,
+        "crit": 5,
+        "evade": 9,
+        "exp": [25, 33],
+        "chance": [20, 40]
+    },
+    "paladin": {
+        "name": "Fallen Paladin",
+        "hp": [250, 300],
+        "atk": [12, 16],
+        "hit": 70,
+        "crit": 2,
+        "evade": 2,
+        "exp": [25, 33],
+        "chance": [20, 40]
+    },
+    "mini1": {
+        "name": "Minotaur",
+        "hp": [400, 600],
+        "atk": [14, 21],
+        "hit": 80,
+        "crit": 6,
+        "evade": 10,
+        "exp": [50, 70],
+        "chance": [10, 30]
+    },
+    "mini2": {
+        "name": "Stone Gargoyle",
+        "hp": [600, 800],
+        "atk": [15, 24],
+        "hit": 85,
+        "crit": 5,
+        "evade": 15,
+        "exp": [80, 100],
+        "chance": [10, 30]
+    },
+    "boss1": {
+        "name": "????????????????",
+        "hp": [1000, 1500],
+        "atk": [20, 30],
+        "hit": 90,
+        "crit": 8,
+        "evade": 6,
+        "exp": [110, 150],
+        "chance": [5]
+    }
+}
