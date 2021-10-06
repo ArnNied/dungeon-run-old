@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 .vscode
 __pycache__
 */__pycache__
 tempCodeRunnerFile.py
-=======
-__pycache__
->>>>>>> fef8d34 (feat(utils): added `timed()` function)

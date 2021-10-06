@@ -1,1 +1,0 @@
-SECTOR_BEGIN = "begin.SectorBegin"
